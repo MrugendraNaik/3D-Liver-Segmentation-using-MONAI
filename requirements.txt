@@ -1,0 +1,12 @@
+pip install nibabel simpleitk
+pip install numpy scipy
+pip install matplotlib
+pip install tqdm
+pip install pillow
+pip install monai
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+pip install notebook jupyterlab ipykernel <-- i used jupyter notebook thats why
+
+keep python environment either 3.8 , 3.9 , 3.10 anymore will crash.
+
+try lower resolutions if u dont have a good gpu like 128x128xN or 96x96xN
